@@ -11,15 +11,13 @@
   text-align: center;
   justify-content: center;
   padding: 40;
-  margin: 40;  
+  margin: 40;
 }
 
 .kläder {
-
 }
 
 .job {
-
 }
 
 /*descritpion text */
@@ -70,7 +68,7 @@ a {
 #kläder {
   background-color: rgb(247, 135, 100);
 }
-#job{
+#job {
   background-color: rgb(184, 111, 82);
 }
 
@@ -96,11 +94,11 @@ nav li {
 .headnav {
   position: fixed;
   top: 0;
-  right: -80vw;
-  width: 80vw;
-  height: 22vh;
+  right: -70vw;
+  width: 70vw;
+  height: 24vh;
   transition: 300ms ease-in-out;
-  background-color:rgb(57, 42, 22);
+  background-color: rgb(57, 42, 22);
 }
 .nav-area {
   font-size: 2rem;
@@ -130,8 +128,6 @@ footer p {
   margin: 10px;
 }
 
-
-
 /* Detta är för sign up */
 
 .signup {
@@ -140,7 +136,8 @@ footer p {
 }
 
 /* text och stor knapp låda */
-input[type=text], input[type=submit] {
+input[type="text"],
+input[type="submit"] {
   width: 100%;
   padding: 12px;
   margin: 8px;
@@ -150,14 +147,13 @@ input[type=text], input[type=submit] {
 }
 
 /* stor knapp*/
-input[type=submit] {
-  background-color: #4CAF50;
+input[type="submit"] {
+  background-color: #4caf50;
   color: white;
   border: none;
 }
 
 /* liten kanpp */
-input[type=checkbox] {
+input[type="checkbox"] {
   margin-top: 16px;
 }
-
