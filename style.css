@@ -7,9 +7,16 @@
 .games {
   display: flex;
   text-align: center;
-  width: 90%;
+  justify-content: center;
   padding: 40;
-  margin: 40;
+  margin: 40;  
+}
+
+.desctext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 h1,
@@ -28,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgb(35, 28, 7);
   padding: 32px;
   color: white;
   margin: 0px;
@@ -45,8 +52,18 @@ a {
   color: white;
 }
 
+#games {
+  background-color: rgb(184, 111, 82);
+}
+#kläder {
+  background-color: rgb(247, 135, 100);
+}
+#job{
+  background-color: rgb(184, 111, 82);
+}
+
 footer {
-  background-color: black;
+  background-color: rgb(35, 28, 7);
   padding: 16px;
   color: white;
   text-align: center;
@@ -82,7 +99,7 @@ nav li {
   width: 80vw;
   height: 22vh;
   transition: 300ms ease-in-out;
-  background-color: aquamarine;
+  background-color:rgb(57, 42, 22);
 }
 
 .nav-area {
