@@ -87,10 +87,13 @@ nav ul {
 }
 
 nav li {
+  display: flex;
   list-style: none;
   margin-right: 32px;
   display: inline-block;
   text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 /* Animerade menyn vid header */
@@ -99,7 +102,7 @@ nav li {
   top: 0;
   right: -75vw;
   width: 75vw;
-  height: 24vh;
+  height: 21.5vh;
   transition: 300ms ease-in-out;
   background-color: rgb(38, 38, 38);
 }
