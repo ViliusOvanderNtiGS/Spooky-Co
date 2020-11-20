@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.gameing {
+.defualt {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
@@ -13,8 +13,8 @@
   flex-wrap: wrap;
 }
 
-main img:hover {
-  background-color: white;
+main a img:hover {
+  /*background-color: white;*/
   opacity: 0.5;
 }
 
@@ -158,7 +158,7 @@ input[type="submit"] {
 
 /* liten kanpp */
 input[type="checkbox"] {
-  margin-top: 16px;
+  margin: 16px;
 }
 
 /* Luancher */
@@ -175,4 +175,21 @@ input[type="checkbox"] {
 .tydownload {
   padding: 128px;
   background-color: lightslategray;
+}
+
+.tydownload a {
+  display: flex;
+  justify-content: center;
+}
+
+/* spelen */
+.game {
+  padding: 64px;
+}
+
+.game p {
+  text-align: justify;
+  padding-top: 16px;
+  width: 50%;
+  margin: auto;
 }
