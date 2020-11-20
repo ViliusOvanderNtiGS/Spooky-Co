@@ -97,8 +97,8 @@ nav li {
 .headnav {
   position: fixed;
   top: 0;
-  right: -70vw;
-  width: 70vw;
+  right: -75vw;
+  width: 75vw;
   height: 24vh;
   transition: 300ms ease-in-out;
   background-color: rgb(38, 38, 38);
@@ -190,6 +190,21 @@ input[type="checkbox"] {
 .game p {
   text-align: justify;
   padding-top: 16px;
+  width: 50%;
+  margin: auto;
+}
+
+/* Job */
+.job {
+  padding: 32px;
+}
+
+.job p {
+  width: 75%;
+  margin: auto;
+}
+
+.job ul {
   width: 50%;
   margin: auto;
 }
