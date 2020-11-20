@@ -160,3 +160,19 @@ input[type="submit"] {
 input[type="checkbox"] {
   margin-top: 16px;
 }
+
+/* Luancher */
+
+/* luancher defualt */
+.download {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px;
+  padding: 64px;
+  text-align: center;
+}
+
+.tydownload {
+  padding: 128px;
+  background-color: lightslategray;
+}
