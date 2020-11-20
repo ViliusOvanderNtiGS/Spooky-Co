@@ -132,21 +132,31 @@ footer p {
 }
 
 /* Detta är för sign up */
+/*Kollade på https://www.w3schools.com/howto/howto_css_newsletter.asp
+ hur man gjorde och det såg nästan exact ut som jag ville*/
 
 .signup {
-  padding: 20px;
+  padding: 10px;
+  margin: 32px;
   background-color: #e9e9e9;
 }
 
 /* text och stor knapp låda */
 input[type="text"],
 input[type="submit"] {
-  width: 100%;
+  width: 95%;
   padding: 12px;
-  margin: 8px;
+  margin: 32px;
   display: inline-block;
   border: none;
   box-sizing: border-box;
+}
+
+.signup label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 20px;
 }
 
 /* stor knapp*/
@@ -206,5 +216,15 @@ input[type="checkbox"] {
 
 .job ul {
   width: 50%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  padding: 32px;
+}
+
+.faq p {
+  width: 60%;
   margin: auto;
 }
