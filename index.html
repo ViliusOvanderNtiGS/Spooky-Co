@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="banner">
             <a href="index.html">
                 <img src="spookylogo.png" alt="Spöke logga" width="100" class="logo" />
@@ -16,15 +16,19 @@
                 <h1>Spooky</h1>
             </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="signup.html">Sign up</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#kläder">Merchandise</a></li>
-                <li><a href="#job">Job oppertunities</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
+        <label class="nav-area">
+            ☰
+            <input class="nav-toggle" type="checkbox" />
+                <nav>
+                    <ul>
+                        <li><a href="signup.html">Sign up</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#kläder">Merchandise</a></li>
+                        <li><a href="#job">Job oppertunities</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </label>
     </header>
     <main>
         <article id="games">
